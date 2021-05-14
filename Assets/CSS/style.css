@@ -1,13 +1,16 @@
 body {
+    background-image: url(../Pictures/Ruffles.png);
     background-color: mediumturquoise;
     color: darkslategray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 h1{
     color: paleturquoise;
     text-align: center;
-    background-color:midnightblue;
+    background-color: midnightblue;
 }
 header{
     margin-top: 0%;
@@ -26,6 +29,7 @@ a{
 main{
     float: left;
     padding: 2%;
+    font-size: larger;
 }
 
 main h3{
@@ -38,7 +42,7 @@ main li:hover a{
 
 aside{
     transition: all 0.2s ease-in-out;
-    height: 100%;
+    height: max-content;
     width: auto;
     float: right;
     top: 0;
@@ -69,7 +73,6 @@ aside li:hover a{
 
 footer{
     clear: both;
-    position: sticky;
     bottom: 0%;
     margin-bottom: 0%;
     margin-top: 30px;
@@ -77,8 +80,10 @@ footer{
     padding-bottom: 10px;
     border-top: solid lightslategrey 5px;
     text-align: center;
+    background-image: url(../Pictures/In_Touch.png);
     background-color:midnightblue;
     color: lightslategray;
+    background-size:60%;
 }
 
 @media screen and (max-width:900px) {
