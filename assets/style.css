@@ -1,9 +1,9 @@
 body {
-    background-image: url(../Pictures/Ruffles.png);
+    background-image: url(Ruffles.png);
     background-color: mediumturquoise;
     color: darkslategray;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-size: 100%;
+    background-size: auto;
     background-repeat: no-repeat;
 }
 
@@ -80,10 +80,11 @@ footer{
     padding-bottom: 10px;
     border-top: solid lightslategrey 5px;
     text-align: center;
-    background-image: url(../Pictures/In_Touch.png);
+    background-image: url(In_Touch.png);
+    background-repeat: no-repeat;
     background-color:midnightblue;
     color: lightslategray;
-    background-size:60%;
+    background-size:auto;
 }
 
 @media screen and (max-width:900px) {
