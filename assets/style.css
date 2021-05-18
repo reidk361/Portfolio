@@ -9,8 +9,6 @@ body {
 
 h1{
     color: paleturquoise;
-    text-align: center;
-    background-color: midnightblue;
 }
 header{
     margin-top: 0%;
@@ -18,12 +16,19 @@ header{
     border-bottom: solid lightslategrey 5px;
     text-align: center;
     background-color:midnightblue;
+    background-image: url(In_Touch.png);
+    background-repeat: no-repeat;
     color: lightslategray;
 }
 
 a{
     color: lightslategrey;
     font-weight: bolder;
+}
+
+article{
+    padding: 2%;
+    font-size: larger;
 }
 
 main{
