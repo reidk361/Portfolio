@@ -4,12 +4,23 @@ body {
     color: rgb(153, 178, 202);
     font-family: 'Handlee', cursive;
     background-size: auto;
+    font-weight: bold;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 h1{
     color: paleturquoise;
 }
+
+h1, h2, h3 {
+    font-family: 'Handlee', cursive;
+    font-weight: bolder;
+}
+
+input, select, textarea {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 header{
     margin-top: 0%;
     padding-top: 2%;
@@ -58,7 +69,6 @@ button:active {
     font-size: x-large;
     background-color:midnightblue;
     background-image: url(In_Touch.png);
-    background-repeat: no-repeat;
     border: lightslategray solid 2px;
     border-radius: 25px;
     margin: 5%;
@@ -71,7 +81,6 @@ button:active {
 } 
 
 #example-pages{
-    float: left;
     padding: 2%;
     font-size: larger;
     margin-left: 5%;
@@ -97,25 +106,12 @@ a:hover{
     display: inline;
     position: absolute;
     opacity: 80%;
-    margin-left: 5%;
     border: lightslategray solid 2px;
     border-radius: 5px;
     box-shadow: inset 0px 0px 10px
     rgba(175,238,238), 0 0 15px
     rgba(175,238,238);  
     
-}
-
-#contact-info{
-    transition: all 0.2s ease-in-out;
-    height: max-content;
-    width: auto;
-    float: right;
-    top: 0;
-    right: 0;
-    margin-right: 5%;
-    width: 20%;
-    overflow-x: hidden;
 }
 
 #contact-info h3{
@@ -130,7 +126,6 @@ a:hover{
 
 
 footer{
-    clear: both;
     bottom: 0%;
     margin-bottom: 0%;
     margin-top: 30px;
