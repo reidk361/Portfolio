@@ -1,10 +1,9 @@
 body {
     background-image: url(Silver_Roulette-BB.png);
     background-color: darkviolet;
-    color: lightslategray;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(153, 178, 202);
+    font-family: 'Handlee', cursive;
     background-size: auto;
-    background-repeat: no-repeat;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
@@ -13,24 +12,50 @@ h1{
 }
 header{
     margin-top: 0%;
-    margin-bottom: 5%;
+    padding-top: 2%;
+    margin-bottom: 30px;
     border-bottom: solid lightslategrey 2px;
     text-align: center;
     background-color:midnightblue;
     background-image: url(In_Touch.png);
     background-repeat: no-repeat;
-    color: lightslategray;
 }
 
 a{
-    color: lightslategrey;
     font-weight: bolder;
+    color: rgb(153, 178, 202);
 }
 
-article{
+button{
+    transition: all 0.2s ease-in-out;
+    opacity: 0.8;
+    background-color:midnightblue;
+    padding: 10px;
+    margin: 2%; 
+    border-radius: 25px;
+    color: paleturquoise;
+    font-size: x-large;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+button:hover {
+    opacity: 100%;
+    box-shadow: inset 0px 0px 10px
+    rgb(36, 68, 57), 0 0 15px;  
+} 
+
+button:active {
+    opacity: 100%;
+    box-shadow: inset 0px 0px 10px
+    rgb(36, 68, 57), 0 0 15px;
+    background-color: rgb(17, 17, 71);
+}
+
+#about-me, #example-pages, #contact-info, #digital-art{
     transition: all 0.2s ease-in-out;
     padding: 2%;
-    font-size: larger;
+    font-size: x-large;
     background-color:midnightblue;
     background-image: url(In_Touch.png);
     background-repeat: no-repeat;
@@ -39,48 +64,36 @@ article{
     margin: 5%;
 }
 
-article:hover {
+#about-me:hover, #example-pages:hover, #contact-info:hover, #digital-art:hover {
     box-shadow: inset 0px 0px 10px
     rgba(175,238,238), 0 0 15px
     rgba(175,238,238);  
 } 
 
-main{
-    transition: all 0.2s ease-in-out;
+#example-pages{
     float: left;
     padding: 2%;
     font-size: larger;
-    background-color:midnightblue;
-    background-image: url(In_Touch.png);
-    background-repeat: no-repeat;
-    border: lightslategray solid 2px;
-    border-radius: 25px;
     margin-left: 5%;
     margin-bottom: 5%;
 }
 
-main h3{
+#example-pages h3{
     text-align: center;
 }
 
-main img{
+#example-pages img{
     transition: all 0.2s ease-in-out;
     display: none;
     opacity: 100%;
 }
 
-main:hover {
-    box-shadow: inset 0px 0px 10px
-    rgba(175,238,238), 0 0 15px
-    rgba(175,238,238);  
-} 
-
-main li:hover a{
+a:hover{
     color: paleturquoise;
 } 
 
 
-main li:hover img{
+#example-pages li:hover img{
     display: inline;
     position: absolute;
     opacity: 80%;
@@ -93,7 +106,7 @@ main li:hover img{
     
 }
 
-aside{
+#contact-info{
     transition: all 0.2s ease-in-out;
     height: max-content;
     width: auto;
@@ -101,28 +114,19 @@ aside{
     top: 0;
     right: 0;
     margin-right: 5%;
-    background-color: midnightblue;
-    background-image: url(In_Touch.png);
-    color: lightslategray;
-    border: lightslategray solid 2px;
-    border-radius: 25px;
-    width: 30%;
+    width: 20%;
     overflow-x: hidden;
 }
 
-aside:hover {
-    box-shadow: inset 0px 0px 10px
-    rgba(175,238,238), 0 0 15px
-    rgba(175,238,238);  
-} 
-
-aside h3{
+#contact-info h3{
     padding: 2%;
 }
 
-aside li:hover a{
-    color: paleturquoise;
-} 
+#digital-art:hover {
+    box-shadow: inset 0px 0px 10px
+    rgba(175,238,238), 0 0 15px
+    rgba(175,238,238); 
+}
 
 
 footer{
@@ -137,17 +141,16 @@ footer{
     background-image: url(In_Touch.png);
     background-repeat: no-repeat;
     background-color:midnightblue;
-    color: lightslategray;
     background-size:auto;
 }
 
 @media screen and (max-width:1117px) {
-    main{
+    #example-pages{
         float: none;
         width: auto;
         margin-right: 5%;
     }
-    aside {
+    #contact-info {
         float: none;
         width: auto;
         margin-left: 5%;

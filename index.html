@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./assets/reset.css" />
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
     <link rel="shortcut icon" type="image/jpg" href="./assets/Retro_Glass.png" />
@@ -13,40 +16,50 @@
 
 <body>
     <header>
-        <h1 id="user-name"></h1>
-        <h2>Welcome to the Portfolio of Kalyn Reid.</h2>
+        <h1>Kalyn Reid</h1>
         <h3>Full Stack Web Developer</h3>
+        <br />
+        <button id="about-me-button">About Me</button>
+        <button id="project-button">Projects</button>
+        <button id="digital-art-button">Digital Art</button>
+        <button id="contact-button">Contact Form</button>
     </header>
-    <article>
+    <div id="about-me">
         <section>
             <h3>About me:</h3>
             <p>I was in the Navy for 6 years. I was a Reactor Operator, which required an eye for detail for safe reactor operations. I was also responsible for my ship's confidential computer system, so I'm proficient in network and server administration in a Windows environment.</p>
             <p>I also worked as a Customer Support Engineer which involved repairing metrology tools in a clean-room environment.</p>
             <p>I am going into web development due to a desire to expand into new skills that utilize my eye for detail, computer skills, and creativity.</p>
         </section>
-    </article>
-    <main>
-        <h3>Here you will find links to several pages<br /> I have made featuring different skills I have garnered.</h3>
+    </div>
+    <div id = "digital-art">
+        
+    </div>
+    <div id = "example-pages">
+        <h3>Here you will find links to several pages I have made featuring different skills I have garnered.</h3>
         <section>
             <ul>
                 <li>
-                    <a href="https://reidk361.github.io/Activity28/">My CSS Cheatsheet</a>
+                    <a href="https://reidk361.github.io/Activity28/" target="_blank" rel="noopener noreferrer">My CSS Cheatsheet</a>
                     <img src="./assets/Activity28-Monitor.png" alt="Preview of webpage." width="300">
                 </li>
                 <li>
-                    <a href="https://reidk361.github.io/Activity22/">Mock Trouble Ticket</a>
+                    <a href="https://reidk361.github.io/Activity22/" target="_blank" rel="noopener noreferrer">Mock Trouble Ticket</a>
                     <img src="./assets/Activity22-Monitor.png" alt="Preview of webpage." width="300">
                 </li>
-                <li></li>
+                <li>
+                    <a href="https://reidk361.github.io/Quiz-Homework-Week-4/" target="_blank" rel="noopener noreferrer">Mock Javascript Quiz</a>
+                    <img src="./assets/Homework4.png" alt="Preview of webpage." width="300">
+                </li>
                 <li></li>
                 <li></li>
 
             </ul>
         </section>
-    </main>
-    <aside>
+    </div>
+    <div id = "contact-info">
+        <h3>Contact Info and Links</h3>
         <section>
-            <h3>Contact Info and Links</h3>
             <ul>
                 <li>
                     <a href="mailto:reidkalyn361@gmail.com" target="_blank" rel="noopener noreferrer">E-mail</a>
@@ -62,7 +75,7 @@
                 </li>
             </ul>
         </section>
-    </aside>
+    </div>
     <footer>
         <h3>Thanks for visiting my Portfolio. Feel free to contact me using the contact info provided.</h3>
         <p>All images are &copy; by Kalyn Reid</p>
