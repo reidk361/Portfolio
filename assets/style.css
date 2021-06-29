@@ -37,7 +37,7 @@ a{
     color: rgb(153, 178, 202);
 }
 
-button{
+header button, #contact-info button{
     transition: all 0.2s ease-in-out;
     opacity: 0.8;
     background-color:midnightblue;
@@ -50,13 +50,13 @@ button{
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-button:hover {
+header button:hover, #contact-info button:hover {
     opacity: 100%;
     box-shadow: inset 0px 0px 10px
     rgb(36, 68, 57), 0 0 15px;  
 } 
 
-button:active {
+header button:active, #contact-info button:active {
     opacity: 100%;
     box-shadow: inset 0px 0px 10px
     rgb(36, 68, 57), 0 0 15px;
@@ -87,33 +87,15 @@ button:active {
     margin-bottom: 5%;
 }
 
-#example-pages a {
-    margin: 15px;
-}
-
-#example-pages img{
-    transition: all 0.2s ease-in-out;
-    display: none;
-    opacity: 100%;
+#example-pages .carousel-caption{
+    background-color: midnightblue;
+    border-radius: 25px;
+    opacity: 80%;
 }
 
 a:hover{
     color: paleturquoise;
 } 
-
-
-#example-pages li:hover img{
-    display: inline;
-    position: absolute;
-    margin-left: 2%;
-    opacity: 80%;
-    border: lightslategray solid 2px;
-    border-radius: 5px;
-    box-shadow: inset 0px 0px 10px
-    rgba(175,238,238), 0 0 15px
-    rgba(175,238,238);  
-    
-}
 
 #digital-art:hover {
     box-shadow: inset 0px 0px 10px
@@ -123,6 +105,7 @@ a:hover{
 
 .carousel-inner {
     border-radius: 25px;
+    border: solid black 1px;
 }
 
 #contact-info button{
