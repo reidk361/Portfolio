@@ -12,7 +12,7 @@ h1{
     color: paleturquoise;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4{
     font-family: 'Handlee', cursive;
     font-weight: bolder;
 }
@@ -83,11 +83,12 @@ button:active {
     padding: 2%;
     font-size: larger;
     margin-left: 5%;
+    padding-bottom: 150px;
     margin-bottom: 5%;
 }
 
-#example-pages h3{
-    text-align: center;
+#example-pages a {
+    margin: 15px;
 }
 
 #example-pages img{
@@ -104,6 +105,7 @@ a:hover{
 #example-pages li:hover img{
     display: inline;
     position: absolute;
+    margin-left: 2%;
     opacity: 80%;
     border: lightslategray solid 2px;
     border-radius: 5px;
@@ -111,10 +113,6 @@ a:hover{
     rgba(175,238,238), 0 0 15px
     rgba(175,238,238);  
     
-}
-
-#contact-info h3{
-    padding: 2%;
 }
 
 #digital-art:hover {
@@ -127,6 +125,13 @@ a:hover{
     border-radius: 25px;
 }
 
+#contact-info button{
+    margin:auto;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: inset 0px 0px 5px
+    rgb(36, 68, 57), 0 0 10px; 
+}
 
 footer{
     bottom: 0%;
@@ -142,15 +147,16 @@ footer{
     background-size:auto;
 }
 
-@media screen and (max-width:1117px) {
-    #example-pages{
-        float: none;
-        width: auto;
-        margin-right: 5%;
-    }
-    #contact-info {
-        float: none;
-        width: auto;
-        margin-left: 5%;
+@media screen and (max-width:635px) {
+    #example-pages li:hover img{
+        display: block;
+        margin-left: 10%;
+        opacity: 80%;
+        border: lightslategray solid 2px;
+        border-radius: 5px;
+        box-shadow: inset 0px 0px 10px
+        rgba(175,238,238), 0 0 15px
+        rgba(175,238,238);  
+        
     }
 }
