@@ -77,14 +77,6 @@ header button:active, #contact-info button:active {
     box-shadow: inset 0px 0px 10px
     rgba(175,238,238), 0 0 15px
     rgba(175,238,238);  
-} 
-
-#example-pages{
-    padding: 2%;
-    font-size: larger;
-    margin-left: 5%;
-    padding-bottom: 150px;
-    margin-bottom: 5%;
 }
 
 #example-pages .carousel-caption{
