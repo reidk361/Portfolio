@@ -68,7 +68,6 @@ button:active {
     padding: 2%;
     font-size: x-large;
     background-color:midnightblue;
-    background-image: url(In_Touch.png);
     border: lightslategray solid 2px;
     border-radius: 25px;
     margin: 5%;
@@ -122,6 +121,10 @@ a:hover{
     box-shadow: inset 0px 0px 10px
     rgba(175,238,238), 0 0 15px
     rgba(175,238,238); 
+}
+
+.carousel-inner {
+    border-radius: 25px;
 }
 
 
