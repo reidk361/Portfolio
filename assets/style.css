@@ -88,9 +88,14 @@ header button:active, #contact-info button:active {
 }
 
 #example-pages .carousel-caption{
+    transition: all 0.2s ease-in-out;
     background-color: midnightblue;
     border-radius: 25px;
     opacity: 80%;
+}
+
+#example-pages .carousel-caption:hover{
+    opacity: 100%;
 }
 
 a:hover{
